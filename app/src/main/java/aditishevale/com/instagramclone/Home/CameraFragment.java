@@ -10,14 +10,14 @@ import android.view.ViewGroup;
 
 import aditishevale.com.instagramclone.R;
 
-public class HomeFragment extends Fragment {
+public class CameraFragment extends Fragment {
 
-    private static final String TAG ="HomeFragment";
+    private static final String TAG ="CameraFragment";
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-       View view = inflater.inflate(R.layout.fragment_home,container,false);
+       View view = inflater.inflate(R.layout.fragment_camera,container,false);
 
         return view;
     }
