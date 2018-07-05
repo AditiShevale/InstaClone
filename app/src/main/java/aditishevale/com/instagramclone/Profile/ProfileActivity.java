@@ -1,4 +1,4 @@
-package aditishevale.com.instagramclone;
+package aditishevale.com.instagramclone.Profile;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
+import aditishevale.com.instagramclone.R;
 import aditishevale.com.instagramclone.Utils.BottomNavigationViewHelper;
 
 public class ProfileActivity extends AppCompatActivity {

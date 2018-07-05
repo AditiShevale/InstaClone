@@ -9,14 +9,12 @@ import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
-import java.time.Instant;
-
-import aditishevale.com.instagramclone.HomeActivity;
-import aditishevale.com.instagramclone.LikesActivity;
-import aditishevale.com.instagramclone.ProfileActivity;
+import aditishevale.com.instagramclone.Home.HomeActivity;
+import aditishevale.com.instagramclone.Likes.LikesActivity;
+import aditishevale.com.instagramclone.Profile.ProfileActivity;
 import aditishevale.com.instagramclone.R;
-import aditishevale.com.instagramclone.SearchActivity;
-import aditishevale.com.instagramclone.ShareActivity;
+import aditishevale.com.instagramclone.Search.SearchActivity;
+import aditishevale.com.instagramclone.Share.ShareActivity;
 
 public class BottomNavigationViewHelper {
 
