@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/media/aditishevale/3240FAD440FA9E331/Users/Aditi%20Shevale/AppData/Local/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/content/ic_add_circle_outline_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/media/aditishevale/3240FAD440FA9E331/Users/Aditi%20Shevale/AppData/Local/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/alert/ic_add_alert_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -33,7 +33,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_circle" />
+                                      <entry key="outputName" value="ic_alert" />
                                     </map>
                                   </option>
                                 </PersistentState>
