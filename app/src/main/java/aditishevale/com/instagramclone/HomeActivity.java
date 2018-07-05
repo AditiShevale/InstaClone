@@ -6,6 +6,8 @@ import android.util.Log;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
+import aditishevale.com.instagramclone.Utils.BottomNavigationViewHelper;
+
 public class HomeActivity extends AppCompatActivity {
 
     private static final String TAG = "HomeActivity";
@@ -15,6 +17,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Log.d(TAG,"onCreate:Starting");
+        setupBottomNavigationView();
 
     }
     //Method For Stting BottomNavigation
@@ -23,6 +26,7 @@ public class HomeActivity extends AppCompatActivity {
 
         BottomNavigationViewEx bottomNavigationViewEx =(BottomNavigationViewEx)
                 findViewById(R.id.bottomNavViewBar);
+        BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);
 
     }
 
