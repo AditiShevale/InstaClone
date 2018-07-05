@@ -31,4 +31,8 @@ dependencies {
     //Design library for Coordinator Layout and Toolbars
     compile 'com.android.support:design:27.0.1'
 
+    //Bottom NavigationViewEx library
+    compile 'com.github.ittianyu:BottomNavigationViewEx:1.2.4'
+
+
 }
