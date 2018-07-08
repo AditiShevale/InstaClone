@@ -23,7 +23,19 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/media/aditishevale/3240FAD440FA9E331/Users/Aditi%20Shevale/AppData/Local/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/content/ic_send_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/media/aditishevale/3240FAD440FA9E331/Users/Aditi%20Shevale/AppData/Local/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/content/ic_save_black_24dp.xml" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="textAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="fontFamily" value="padmaa-Bold.1.1" />
+                                                <entry key="text" value="Instagram" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -33,10 +45,10 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="$USER_HOME$/Desktop/images.png" />
+                                      <entry key="assetType" value="TEXT" />
+                                      <entry key="imageAsset" value="$PROJECT_DIR$/../ins.png" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="000101" />
+                                      <entry key="themeColor" value="000000" />
                                     </map>
                                   </option>
                                 </PersistentState>
