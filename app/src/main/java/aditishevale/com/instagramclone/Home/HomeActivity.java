@@ -1,6 +1,7 @@
 package aditishevale.com.instagramclone.Home;
 
 import android.content.Context;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -26,6 +27,12 @@ public class HomeActivity extends AppCompatActivity {
         setupBottomNavigationView();
 
     }
+
+    private void setUpViewPager(ViewPager viewPager){
+        SectionPagerAdapter adapter = new SectionPagerAdapter(getSupportFragmentManager());
+
+    }
+
     //Method For Setting BottomNavigation
     private void setupBottomNavigationView(){
         Log.d(TAG,"BottomNavigationView");
