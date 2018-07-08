@@ -1,12 +1,15 @@
 package aditishevale.com.instagramclone.Home;
 
 import android.content.Context;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TableLayout;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
@@ -25,15 +28,26 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         Log.d(TAG,"onCreate:Starting");
         setupBottomNavigationView();
+        setUpViewPager();
 
     }
 
-    private void setUpViewPager(ViewPager viewPager){
+        /* Responsible for adding 3 tabs: Camera,Home,Messages */
+
+    private void setUpViewPager(){
         SectionPagerAdapter adapter = new SectionPagerAdapter(getSupportFragmentManager());
+        adapter.addFragment(new CameraFragment());
+        adapter.addFragment(new HomeFragment());
+        adapter.addFragment(new MessagesFragment());
+        ViewPager viewPager = (ViewPager)findViewById(R.id.container);
+        viewPager.setAdapter(adapter);
 
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
     }
 
-    //Method For Setting BottomNavigation
+         /* Method For Setting BottomNavigation*/
+
     private void setupBottomNavigationView(){
         Log.d(TAG,"BottomNavigationView");
 
@@ -42,7 +56,8 @@ public class HomeActivity extends AppCompatActivity {
         BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);
         BottomNavigationViewHelper.enableNavigation(mContext,bottomNavigationViewEx);
         Menu menu = bottomNavigationViewEx.getMenu();
-            //Reference the Activity You Want to Have Reference of
+
+        //Reference the Activity You Want to Have Reference of
         MenuItem menuItem = menu.getItem(Activity_num);
         menuItem.setChecked(true);
 
