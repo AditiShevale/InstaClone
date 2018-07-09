@@ -26,6 +26,7 @@ public class ProfileActivity extends AppCompatActivity {
         setupBottomNavigationView();
     }
         /*Set Up ToolBar Widget*/
+
         private void setupToolbar(){
             Toolbar toolbar = (Toolbar)findViewById(R.id.profileToolBar);
             setSupportActionBar(toolbar);
