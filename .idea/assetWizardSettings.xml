@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/media/aditishevale/3240FAD440FA9E331/Users/Aditi%20Shevale/AppData/Local/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/content/ic_save_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/media/aditishevale/3240FAD440FA9E331/Users/Aditi%20Shevale/AppData/Local/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/navigation/ic_more_vert_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -45,8 +45,8 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="assetType" value="TEXT" />
                                       <entry key="imageAsset" value="$PROJECT_DIR$/../ins.png" />
+                                      <entry key="outputName" value="ic_ellipses" />
                                       <entry key="theme" value="CUSTOM" />
                                       <entry key="themeColor" value="000000" />
                                     </map>
