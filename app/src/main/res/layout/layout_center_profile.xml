@@ -73,20 +73,59 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/linLayout"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:padding="20dp"
+                >
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/displayname"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Aditi"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description"
+                    android:textColor="@color/black"
+                    android:text="Gujarat,India"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/website"
+                    android:textColor="@color/linkblue"
+                    android:layout_marginTop="5dp"
+                    android:text="https://aditi.shevale999@gmail.com"
+                    android:textSize="16sp"/>
 
             </LinearLayout>
 
-            <RelativeLayout
-                android:id="@+id/relLayout3"
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relLayout3"
+            android:layout_below="@+id/linLayout2"
+            android:layout_marginBottom="50dp">
+
+            <GridView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/linLayout2"
-                android:layout_marginBottom="50dp">
+                android:id="@+id/gridView"
+                android:numColumns="3"
+                android:verticalSpacing="1dp"
+                android:horizontalSpacing="1dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center">
+
+            </GridView>
+
+        </RelativeLayout>
 
 
-            </RelativeLayout>
 
 
         </RelativeLayout>
