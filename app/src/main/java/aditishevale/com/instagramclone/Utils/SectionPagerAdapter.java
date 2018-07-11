@@ -1,4 +1,4 @@
-package aditishevale.com.instagramclone.Home;
+package aditishevale.com.instagramclone.Utils;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

@@ -2,19 +2,18 @@ package aditishevale.com.instagramclone.Home;
 
 import android.content.Context;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TableLayout;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 import aditishevale.com.instagramclone.R;
 import aditishevale.com.instagramclone.Utils.BottomNavigationViewHelper;
+import aditishevale.com.instagramclone.Utils.SectionPagerAdapter;
 
 public class HomeActivity extends AppCompatActivity {
 
