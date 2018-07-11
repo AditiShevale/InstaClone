@@ -5,7 +5,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -23,6 +25,17 @@ public class AccountSettingsActivity extends AppCompatActivity {
         mContext =AccountSettingsActivity.this;
         Log.d(TAG,"onCreate: started");
         setUpSettingsList();
+
+        // Setup Back Button for Navigating "Profile Activity"
+
+        ImageView backarrow = (ImageView)findViewById(R.id.backArrow);
+        backarrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
     }
 
 
