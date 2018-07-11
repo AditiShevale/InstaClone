@@ -20,11 +20,14 @@ public class AccountSettingsActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_account_setting);
-
+        mContext =AccountSettingsActivity.this;
         Log.d(TAG,"onCreate: started");
         setUpSettingsList();
     }
+
+
     private void setUpSettingsList(){
+
         ListView listView = (ListView)findViewById(R.id.lvAccountSettings);
 
         ArrayList<String> options = new ArrayList<>();
@@ -32,7 +35,8 @@ public class AccountSettingsActivity extends AppCompatActivity {
         options.add(getString(R.string.sign_out));
 
 
-        ArrayAdapter adapter =new ArrayAdapter(mContext,android.R.layout.simple_list_item_1,options);
+        ArrayAdapter adapter =new ArrayAdapter(mContext,
+                android.R.layout.simple_list_item_1, options);
         listView.setAdapter(adapter);
 
     }
