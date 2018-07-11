@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import aditishevale.com.instagramclone.R;
 
-class AccountSettingsActivity extends AppCompatActivity {
+public class AccountSettingsActivity extends AppCompatActivity {
     private  static final String TAG ="AccountSettingsAcitvity";
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
