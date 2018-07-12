@@ -46,7 +46,7 @@ public class AccountSettingsActivity extends AppCompatActivity {
         ArrayList<String> options = new ArrayList<>();
         options.add(getString(R.string.edit_profile));
         options.add(getString(R.string.sign_out));
-
+        Log.d(TAG,"SetUpSetting");
 
         ArrayAdapter adapter =new ArrayAdapter(mContext,
                 android.R.layout.simple_list_item_1, options);
