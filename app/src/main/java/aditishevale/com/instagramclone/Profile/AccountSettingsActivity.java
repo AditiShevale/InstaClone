@@ -48,7 +48,7 @@ public class AccountSettingsActivity extends AppCompatActivity {
         options.add(getString(R.string.sign_out));
         Log.d(TAG,"SetUpSetting");
 
-        ArrayAdapter adapter =new ArrayAdapter(mContext,
+        ArrayAdapter adapter = new ArrayAdapter(mContext,
                 android.R.layout.simple_list_item_1, options);
         listView.setAdapter(adapter);
 
