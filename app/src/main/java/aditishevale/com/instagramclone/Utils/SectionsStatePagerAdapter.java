@@ -20,11 +20,42 @@ public class SectionsStatePagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        return null;
+        return mFragmentList.get(position);
     }
 
     @Override
     public int getCount() {
-        return 0;
+        return mFragmentList.size();
+    }
+    private void addFragment(Fragment fragment ,String fragmentName){
+        mFragmentList.add(fragment);
+        mFragments.put(fragment,mFragmentList.size()-1);
+        mFragmnetNumbers.put(fragmentName,mFragmentList.size()-1);
+        mFragmnetNames.put(mFragmentList.size()-1,fragmentName);
+    }
+
+    public Integer getFragmentNumber(String fragmentName){
+        if (mFragmnetNumbers.containsKey(fragmentName)){
+            return mFragmnetNumbers.get(fragmentName);
+        }else {
+            return null;
+        }
+    }
+
+
+    public Integer getFragmentNumber(Fragment fragment){
+        if (mFragmnetNumbers.containsKey(fragment)){
+            return mFragmnetNumbers.get(fragment);
+        }else {
+            return null;
+        }
+    }
+
+    public String getFragmentName(Integer fragmentNumber){
+        if (mFragmnetNames.containsKey(fragmentNumber)){
+            return mFragmnetNames.get(fragmentNumber);
+        }else {
+            return null;
+        }
     }
 }
