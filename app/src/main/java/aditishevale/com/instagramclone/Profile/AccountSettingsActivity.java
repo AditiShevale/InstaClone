@@ -83,6 +83,5 @@ public class AccountSettingsActivity extends AppCompatActivity {
             setViewPager(position);
             }
         });
-
     }
 }
