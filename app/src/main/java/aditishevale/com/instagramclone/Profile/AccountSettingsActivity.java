@@ -42,8 +42,8 @@ public class AccountSettingsActivity extends AppCompatActivity {
         ListView listView = (ListView)findViewById(R.id.lvAccountSettings);
 
         ArrayList<String> options = new ArrayList<>();
-        options.add(getString(R.string.edit_profile));
-        options.add(getString(R.string.sign_out));
+        options.add(getString(R.string.edit_profile_fragment));
+        options.add(getString(R.string.sign_out_fragment));
         Log.d(TAG,"SetUpSetting");
 
         ArrayAdapter adapter = new ArrayAdapter(mContext,
