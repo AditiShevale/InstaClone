@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -49,6 +50,12 @@ public class AccountSettingsActivity extends AppCompatActivity {
         ArrayAdapter adapter = new ArrayAdapter(mContext,
                 android.R.layout.simple_list_item_1, options);
         listView.setAdapter(adapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            setViewPager(position);
+            }
+        });
 
     }
 }
