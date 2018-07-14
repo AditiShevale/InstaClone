@@ -37,8 +37,6 @@ public class AccountSettingsActivity extends AppCompatActivity {
         });
 
     }
-
-
     private void setUpSettingsList(){
 
         ListView listView = (ListView)findViewById(R.id.lvAccountSettings);
