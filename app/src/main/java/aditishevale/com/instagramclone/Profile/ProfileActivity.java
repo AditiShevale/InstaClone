@@ -31,7 +31,9 @@ public class ProfileActivity extends AppCompatActivity {
         mProgressBar.setVisibility(View.GONE);
         setupBottomNavigationView();
         setupToolbar();
+
     }
+
         /*Set Up ToolBar Widget*/
 
         private void setupToolbar(){
