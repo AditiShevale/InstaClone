@@ -25,6 +25,7 @@ public class ProfileActivity extends AppCompatActivity {
     private ProgressBar mProgressBar;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+        Log.d("PAJ","ProfileActivity OnCreate:");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
         mProgressBar = (ProgressBar)findViewById(R.id.profileProgressBar);
