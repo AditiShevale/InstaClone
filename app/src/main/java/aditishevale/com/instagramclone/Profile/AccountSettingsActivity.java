@@ -20,7 +20,7 @@ import aditishevale.com.instagramclone.Utils.SectionsStatePagerAdapter;
 
 public class AccountSettingsActivity extends AppCompatActivity {
 
-    private  static final String TAG ="AccountSettingsAcitvity";
+    private  static final String TAG ="AccountSettingsActivity";
     private Context mContext;
     private SectionsStatePagerAdapter pagerAdapter;
     private ViewPager mViewPager;
