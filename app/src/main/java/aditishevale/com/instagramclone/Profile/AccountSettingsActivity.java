@@ -37,7 +37,8 @@ public class AccountSettingsActivity extends AppCompatActivity {
         mRelativeLayout = (RelativeLayout) findViewById(R.id.relLayout1);
         setUpSettingsList();
         setUpFragments();
-        // Setup Back Button for Navigating "Profile Activity"
+
+        // SetUp Back Button for Navigating "Profile Activity"
 
         ImageView backarrow = (ImageView)findViewById(R.id.backArrow);
         backarrow.setOnClickListener(new View.OnClickListener() {
