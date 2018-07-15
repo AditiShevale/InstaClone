@@ -37,7 +37,9 @@ public class ProfileActivity extends AppCompatActivity {
         private void setupToolbar(){
             Toolbar toolbar = (Toolbar)findViewById(R.id.profileToolBar);
             setSupportActionBar(toolbar);
+
             ImageView profileMenu = (ImageView) findViewById(R.id.profileMenu);
+
             profileMenu.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
