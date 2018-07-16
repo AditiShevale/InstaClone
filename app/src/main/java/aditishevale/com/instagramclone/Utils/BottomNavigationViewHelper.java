@@ -30,7 +30,7 @@ public class BottomNavigationViewHelper {
         bottomNavigationViewEx.setTextVisibility(false);
 
     }
-        //    How to Navigate Between Activities
+        /*    How to Navigate Between Activities*/
 
     public static void enableNavigation(final Context context, BottomNavigationViewEx view){
         view.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

@@ -23,6 +23,7 @@ public class ProfileActivity extends AppCompatActivity {
     private static final int Activity_num = 4;
     private Context mContext = ProfileActivity.this;
     private ProgressBar mProgressBar;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         Log.d("PAJ","ProfileActivity OnCreate:");
@@ -55,7 +56,7 @@ public class ProfileActivity extends AppCompatActivity {
 
 
 
-    //Method For Setting BottomNavigation
+        /*Method For Setting BottomNavigation*/
 
         private void setupBottomNavigationView(){
             Log.d(TAG,"BottomNavigationView");

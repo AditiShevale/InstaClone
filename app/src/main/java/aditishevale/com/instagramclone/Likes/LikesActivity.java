@@ -25,7 +25,7 @@ public class LikesActivity extends AppCompatActivity {
     }
 
 
-    //Method For Setting BottomNavigation
+   /* Method For Setting BottomNavigation*/
     private void setupBottomNavigationView(){
         Log.d(TAG,"BottomNavigationView");
 

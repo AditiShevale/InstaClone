@@ -33,7 +33,8 @@ public class ShareActivity extends AppCompatActivity {
         BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);
         BottomNavigationViewHelper.enableNavigation(mContext,bottomNavigationViewEx);
         Menu menu = bottomNavigationViewEx.getMenu();
-        //Reference the Activity You Want to Have Reference of
+
+     /*   Reference the Activity You Want to Have Reference of*/
         MenuItem menuItem = menu.getItem(Activity_num);
         menuItem.setChecked(true);
 
