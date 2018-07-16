@@ -17,6 +17,7 @@ public class SearchActivity extends AppCompatActivity {
     private static final String TAG = "SearchActivity";
     private static final int Activity_num= 1;
     private Context mContext = SearchActivity.this;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +27,7 @@ public class SearchActivity extends AppCompatActivity {
 
 
     private void setupBottomNavigationView(){
+
         Log.d(TAG,"BottomNavigationView");
 
         BottomNavigationViewEx bottomNavigationViewEx =(BottomNavigationViewEx)
