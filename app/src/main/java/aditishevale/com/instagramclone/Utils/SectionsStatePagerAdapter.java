@@ -11,8 +11,8 @@ import java.util.List;
 public class SectionsStatePagerAdapter extends FragmentPagerAdapter {
     private final List<Fragment> mFragmentList = new ArrayList<>();
     private final HashMap<Fragment,Integer> mFragments = new HashMap<>();
-    private final HashMap<String,Integer> mFragmnetNumbers = new HashMap<>();
-    private final HashMap<Integer,String> mFragmnetNames = new HashMap<>();
+    private final HashMap<String,Integer> mFragmentNumbers = new HashMap<>();
+    private final HashMap<Integer,String> mFragmentNames = new HashMap<>();
 
     public SectionsStatePagerAdapter(FragmentManager fm) {
         super(fm);
@@ -30,13 +30,13 @@ public class SectionsStatePagerAdapter extends FragmentPagerAdapter {
     public void addFragment(Fragment fragment ,String fragmentName){
         mFragmentList.add(fragment);
         mFragments.put(fragment,mFragmentList.size()-1);
-        mFragmnetNumbers.put(fragmentName,mFragmentList.size()-1);
-        mFragmnetNames.put(mFragmentList.size()-1,fragmentName);
+        mFragmentNumbers.put(fragmentName,mFragmentList.size()-1);
+        mFragmentNames.put(mFragmentList.size()-1,fragmentName);
     }
 
     public Integer getFragmentNumber(String fragmentName){
-        if (mFragmnetNumbers.containsKey(fragmentName)){
-            return mFragmnetNumbers.get(fragmentName);
+        if ( mFragmentNumbers.containsKey(fragmentName)){
+            return  mFragmentNumbers.get(fragmentName);
         }else {
             return null;
         }
@@ -44,16 +44,16 @@ public class SectionsStatePagerAdapter extends FragmentPagerAdapter {
 
 
     public Integer getFragmentNumber(Fragment fragment){
-        if (mFragmnetNumbers.containsKey(fragment)){
-            return mFragmnetNumbers.get(fragment);
+        if ( mFragmentNumbers.containsKey(fragment)){
+            return  mFragmentNumbers.get(fragment);
         }else {
             return null;
         }
     }
 
     public String getFragmentName(Integer fragmentNumber){
-        if (mFragmnetNames.containsKey(fragmentNumber)){
-            return mFragmnetNames.get(fragmentNumber);
+        if (mFragmentNames.containsKey(fragmentNumber)){
+            return mFragmentNames.get(fragmentNumber);
         }else {
             return null;
         }
