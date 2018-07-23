@@ -25,6 +25,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
         Log.d(TAG,"onCreate:Starting");
         setupBottomNavigationView();
         setUpViewPager();
@@ -54,8 +55,9 @@ public class HomeActivity extends AppCompatActivity {
     private void setupBottomNavigationView(){
         Log.d(TAG,"BottomNavigationView");
 
-        BottomNavigationViewEx bottomNavigationViewEx =(BottomNavigationViewEx)
+        BottomNavigationViewEx bottomNavigationViewEx = (BottomNavigationViewEx)
                 findViewById(R.id.bottomNavViewBar);
+
         BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);
         BottomNavigationViewHelper.enableNavigation(mContext,bottomNavigationViewEx);
         Menu menu = bottomNavigationViewEx.getMenu();
