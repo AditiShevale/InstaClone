@@ -14,6 +14,7 @@ import aditishevale.com.instagramclone.R;
 import aditishevale.com.instagramclone.Utils.BottomNavigationViewHelper;
 
 public class ShareActivity extends AppCompatActivity {
+
     private static final String TAG = "ShareActivity";
     private static final int Activity_num= 2;
     private Context mContext = ShareActivity.this;
