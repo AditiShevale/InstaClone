@@ -20,6 +20,7 @@ public class ShareActivity extends AppCompatActivity {
     private Context mContext = ShareActivity.this;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         setupBottomNavigationView();
@@ -27,6 +28,7 @@ public class ShareActivity extends AppCompatActivity {
 
 
     private void setupBottomNavigationView(){
+
         Log.d(TAG,"BottomNavigationView");
 
         BottomNavigationViewEx bottomNavigationViewEx =(BottomNavigationViewEx)
