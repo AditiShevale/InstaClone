@@ -53,6 +53,7 @@ public class HomeActivity extends AppCompatActivity {
          /* Method For Setting BottomNavigation*/
 
     private void setupBottomNavigationView(){
+
         Log.d(TAG,"BottomNavigationView");
 
         BottomNavigationViewEx bottomNavigationViewEx = (BottomNavigationViewEx)
