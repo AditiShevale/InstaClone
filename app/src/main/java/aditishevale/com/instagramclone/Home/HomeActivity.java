@@ -59,6 +59,8 @@ public class HomeActivity extends AppCompatActivity {
         Log.d(TAG,"BottomNavigationView");
 
         BottomNavigationViewEx bottomNavigationViewEx = (BottomNavigationViewEx)
+
+
                 findViewById(R.id.bottomNavViewBar);
 
         BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);
