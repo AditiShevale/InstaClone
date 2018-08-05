@@ -14,6 +14,7 @@ import aditishevale.com.instagramclone.R;
 import aditishevale.com.instagramclone.Utils.BottomNavigationViewHelper;
 
 public class LikesActivity extends AppCompatActivity {
+
     private static final String TAG = "LikesActivity";
     private static final int Activity_num= 3;
     private Context mContext = LikesActivity.this;
