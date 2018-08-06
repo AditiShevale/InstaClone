@@ -21,12 +21,14 @@ public class SectionPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
+
         return mFragmentList.get(position);
     }
 
 
     @Override
     public int getCount() {
+
         return mFragmentList.size();
     }
 
@@ -34,6 +36,7 @@ public class SectionPagerAdapter extends FragmentPagerAdapter {
 /*    To Add Fragment*/
 
     public void addFragment(Fragment fragment){
+
         mFragmentList.add(fragment);
     }
 }
